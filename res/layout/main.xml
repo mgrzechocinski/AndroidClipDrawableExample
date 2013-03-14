@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
+              android:gravity="center"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent">
+
+    <TextView android:id="@+id/acd_id_proress_value"
+              android:layout_height="wrap_content"
+              android:textSize="40dp"
+              android:layout_width="wrap_content" />
+
 
     <net.grzechocinski.android.examples.clipdrawable.VerticalProgressBar
             android:id="@+id/acd_id_proress_bar"
@@ -12,7 +19,7 @@
                   android:layout_margin="10dp"
                   android:layout_width="match_parent">
 
-        <Button android:id="@+id/acd_id_button_0"
+        <Button android:id="@+id/acd_id_button_random"
                 style="@style/button_set_progress_value"/>
 
         <Button android:id="@+id/acd_id_button_25"
